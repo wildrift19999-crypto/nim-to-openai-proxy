@@ -67,7 +67,7 @@ validateConfig();
 // validateModels() and GET /v1/models?live=true). Comments note the prior
 // backend model ID where an entry was swapped out for a dead catalog entry.
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'nvidia/nemotron-3-super-120b-a12b',
+  'gpt-3.5-turbo': 'z-ai/glm-5.3',
   'gpt-4': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-3.5': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning', // was qwen/qwen3.5-397b-a17b
   'gpt-4-turbo': 'moonshotai/kimi-k3',
